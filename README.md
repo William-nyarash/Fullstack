@@ -1,7 +1,3 @@
-# Fullstack
-## New note in single page App diagram
-
-  
 sequenceDiagram
     participant browser
     participant server
