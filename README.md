@@ -22,7 +22,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser:HTML document
+    server-->>browser:application/json
     deactivate server
 
     Note right of browser: The browser begins to execute the JavaScript code that fetches the JSON from the server
