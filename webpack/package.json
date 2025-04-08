@@ -1,0 +1,14 @@
+{
+  "name": "webpack.1.0",
+  "version": "1.0.0",
+  "description": "webpack bundling",
+  "license": "ISC",
+  "author": "waren",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
